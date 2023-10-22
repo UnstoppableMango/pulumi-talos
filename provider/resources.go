@@ -12,8 +12,9 @@ import (
 
 	pf "github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	"github.com/pulumiverse/pulumi-talos/provider/pkg/version"
 	"github.com/siderolabs/terraform-provider-talos/shim"
+
+	"github.com/pulumiverse/pulumi-talos/provider/pkg/version"
 )
 
 // all of the talos token components used below.

@@ -13,7 +13,7 @@ The Talos Linux provider for Pulumi can be used to provision Talos Linux machine
 
 ```typescript
 import * as pulumi from "@pulumi/pulumi";
-import * as talos from "@pulumiverse/talos";
+import * as talos from "@unmango/pulumi-talos";
 
 const secrets = new talos.machine.Secrets("secrets", {});
 
@@ -51,7 +51,7 @@ const bootstrap = new talos.machine.Bootstrap("bootstrap", {
 ```python
 import pulumi
 import json
-import pulumiverse_talos as talos
+import unmango_pulumi_talos as talos
 
 secrets = talos.machine.Secrets("secrets")
 
@@ -88,7 +88,7 @@ import (
 	"encoding/json"
 
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/machine"
+	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/machine"
 )
 
 func main() {
@@ -153,7 +153,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using Pulumi;
-using Talos = Pulumiverse.Talos;
+using Talos = UnMango.Talos;
 
 return await Deployment.RunAsync(() => 
 {

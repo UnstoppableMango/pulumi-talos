@@ -2,9 +2,9 @@ PROJECT_NAME := Talos Linux
 
 SHELL            := /bin/bash
 PACK             := talos
-ORG              := pulumiverse
+ORG              := UnstoppableMango
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
-NODE_MODULE_NAME := @pulumiverse/${PACK}
+NODE_MODULE_NAME := @unmango/pulumi-${PACK}
 TF_NAME          := ${PACK}
 PROVIDER_PATH    := provider
 VERSION_PATH     := ${PROVIDER_PATH}/pkg/version.Version

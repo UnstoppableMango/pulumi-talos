@@ -13,7 +13,7 @@ import (
 
 	"github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge"
 
-	talos "github.com/pulumiverse/pulumi-talos/provider"
+	talos "github.com/UnstoppableMango/pulumi-talos/provider"
 )
 
 //go:embed schema-embed.json

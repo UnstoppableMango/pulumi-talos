@@ -1,4 +1,4 @@
-module github.com/pulumiverse/pulumi-talos/provider
+module github.com/UnstoppableMango/pulumi-talos/provider
 
 go 1.21.0
 

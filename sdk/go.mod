@@ -1,4 +1,4 @@
-module github.com/pulumiverse/pulumi-talos/sdk
+module github.com/UnstoppableMango/pulumi-talos/sdk
 
 go 1.20
 

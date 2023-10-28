@@ -6,9 +6,9 @@ package machine
 import (
 	"fmt"
 
+	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/internal"
 	"github.com/blang/semver"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/internal"
 )
 
 type module struct {

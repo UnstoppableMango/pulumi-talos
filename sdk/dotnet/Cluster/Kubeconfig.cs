@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Cluster
+namespace UnMango.Talos.Cluster
 {
     public static class Kubeconfig
     {

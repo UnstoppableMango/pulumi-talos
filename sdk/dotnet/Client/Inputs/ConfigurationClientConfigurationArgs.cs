@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Client.Inputs
+namespace UnMango.Talos.Client.Inputs
 {
 
     public sealed class ConfigurationClientConfigurationInputArgs : global::Pulumi.ResourceArgs

@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Pulumiverse</Authors>
-    <Company>Pulumiverse</Company>
+    <Authors>UnstoppableMango</Authors>
+    <Company>UnstoppableMango</Company>
     <Description>A Pulumi package for creating and managing Talos Linux machines and clusters.</Description>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://talos.dev</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/pulumiverse/pulumi-talos</RepositoryUrl>
+    <RepositoryUrl>https://github.com/UnstoppableMango/pulumi-talos</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
 
     <TargetFramework>net6.0</TargetFramework>

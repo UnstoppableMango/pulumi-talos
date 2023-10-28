@@ -1,8 +1,6 @@
 module github.com/UnstoppableMango/pulumi-talos/shim
 
-go 1.21.0
-
-toolchain go1.21.3
+go 1.21
 
 require (
 	github.com/hashicorp/terraform-plugin-framework v1.4.1

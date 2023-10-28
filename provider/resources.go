@@ -38,9 +38,9 @@ func Provider() tfbridge.ProviderInfo {
 		License:           "MPL-2.0",
 		Homepage:          "https://talos.dev",
 		GitHubOrg:         "siderolabs",
-		Repository:        "https://github.com/pulumiverse/pulumi-talos",
+		Repository:        "https://github.com/UnstoppableMango/pulumi-talos",
 		Version:           version.Version,
-		Publisher:         "Pulumiverse",
+		Publisher:         "UnstoppableMango",
 		LogoURL:           "https://www.talos.dev/images/Sidero_stacked_darkbkgd_RGB.png",
 		PluginDownloadURL: "https://github.com/pulumiverse/pulumi-talos/releases",
 		MetadataInfo:      tfbridge.NewProviderMetadata(metadata),
@@ -63,7 +63,7 @@ func Provider() tfbridge.ProviderInfo {
 			"talos_machine_disks":         {Tok: tfbridge.MakeDataSource(talosPkg, machineMod, "Disks")},
 		},
 		JavaScript: &tfbridge.JavaScriptInfo{
-			PackageName: "@pulumiverse/talos",
+			PackageName: "@unmango/pulumi-talos",
 			// List any npm dependencies and their versions
 			Dependencies: map[string]string{
 				"@pulumi/pulumi": "^3.0.0",
@@ -74,7 +74,7 @@ func Provider() tfbridge.ProviderInfo {
 			},
 		},
 		Python: &tfbridge.PythonInfo{
-			PackageName: "pulumiverse_talos",
+			PackageName: "unmango_pulumi_talos",
 			// List any Python dependencies and their version ranges
 			Requires: map[string]string{
 				"pulumi": ">=3.0.0,<4.0.0",
@@ -82,7 +82,7 @@ func Provider() tfbridge.ProviderInfo {
 		},
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
-				fmt.Sprintf("github.com/pulumiverse/pulumi-%s/sdk/", talosPkg),
+				fmt.Sprintf("github.com/UnstoppableMango/pulumi-%s/sdk/", talosPkg),
 				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				talosPkg,
@@ -90,7 +90,7 @@ func Provider() tfbridge.ProviderInfo {
 			GenerateResourceContainerTypes: true,
 		},
 		CSharp: &tfbridge.CSharpInfo{
-			RootNamespace: "Pulumiverse",
+			RootNamespace: "UnMango",
 			PackageReferences: map[string]string{
 				"Pulumi": "3.*",
 			},

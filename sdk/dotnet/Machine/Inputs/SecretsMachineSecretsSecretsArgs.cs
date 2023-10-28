@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Machine.Inputs
+namespace UnMango.Talos.Machine.Inputs
 {
 
     public sealed class SecretsMachineSecretsSecretsArgs : global::Pulumi.ResourceArgs

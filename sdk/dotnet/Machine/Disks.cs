@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Machine
+namespace UnMango.Talos.Machine
 {
     public static class Disks
     {
@@ -26,7 +26,7 @@ namespace Pulumiverse.Talos.Machine
         /// using System.Linq;
         /// using Pulumi;
         /// using Talos = Pulumi.Talos;
-        /// using Talos = Pulumiverse.Talos;
+        /// using Talos = UnMango.Talos;
         /// 
         /// return await Deployment.RunAsync(() =&gt; 
         /// {
@@ -69,7 +69,7 @@ namespace Pulumiverse.Talos.Machine
         /// using System.Linq;
         /// using Pulumi;
         /// using Talos = Pulumi.Talos;
-        /// using Talos = Pulumiverse.Talos;
+        /// using Talos = UnMango.Talos;
         /// 
         /// return await Deployment.RunAsync(() =&gt; 
         /// {

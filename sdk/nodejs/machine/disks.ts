@@ -16,7 +16,7 @@ import * as utilities from "../utilities";
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
  * import * as talos from "@pulumi/talos";
- * import * as talos from "@pulumiverse/talos";
+ * import * as talos from "@unmango/pulumi-talos";
  *
  * const thisSecrets = new talos.machine.Secrets("thisSecrets", {});
  * const thisDisks = talos.machine.DisksOutput({
@@ -105,7 +105,7 @@ export interface DisksResult {
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
  * import * as talos from "@pulumi/talos";
- * import * as talos from "@pulumiverse/talos";
+ * import * as talos from "@unmango/pulumi-talos";
  *
  * const thisSecrets = new talos.machine.Secrets("thisSecrets", {});
  * const thisDisks = talos.machine.DisksOutput({

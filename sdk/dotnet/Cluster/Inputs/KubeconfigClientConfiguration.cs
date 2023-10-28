@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Cluster.Inputs
+namespace UnMango.Talos.Cluster.Inputs
 {
 
     public sealed class KubeconfigClientConfigurationArgs : global::Pulumi.InvokeArgs

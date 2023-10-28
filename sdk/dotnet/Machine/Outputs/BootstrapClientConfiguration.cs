@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Machine.Outputs
+namespace UnMango.Talos.Machine.Outputs
 {
 
     [OutputType]

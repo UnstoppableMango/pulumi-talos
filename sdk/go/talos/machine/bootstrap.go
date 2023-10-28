@@ -8,9 +8,9 @@ import (
 	"reflect"
 
 	"errors"
+	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumix"
-	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/internal"
 )
 
 // The machine bootstrap resource allows you to bootstrap a Talos node.

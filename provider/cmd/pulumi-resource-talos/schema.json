@@ -11,8 +11,8 @@
     "attribution": "This Pulumi package is based on the [`talos` Terraform Provider](https://github.com/siderolabs/terraform-provider-talos).",
     "repository": "https://github.com/UnstoppableMango/pulumi-talos",
     "logoUrl": "https://www.talos.dev/images/Sidero_stacked_darkbkgd_RGB.png",
-    "pluginDownloadURL": "github://api.github.com/pulumiverse",
-    "publisher": "Pulumiverse",
+    "pluginDownloadURL": "github://api.github.com/UnstoppableMango",
+    "publisher": "UnstoppableMango",
     "meta": {
         "moduleFormat": "(.*)(?:/[^/]*)"
     },

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Machine
+namespace UnMango.Talos.Machine
 {
     /// <summary>
     /// The machine configuration apply resource allows to apply machine configuration to a node
@@ -84,7 +84,7 @@ namespace Pulumiverse.Talos.Machine
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
-                PluginDownloadURL = "github://api.github.com/pulumiverse",
+                PluginDownloadURL = "github://api.github.com/UnstoppableMango",
                 AdditionalSecretOutputs =
                 {
                     "machineConfiguration",

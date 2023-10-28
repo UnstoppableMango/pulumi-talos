@@ -7,9 +7,9 @@ import (
 	"context"
 	"reflect"
 
+	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumix"
-	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/internal"
 )
 
 // Generate machine secrets for Talos cluster.
@@ -21,8 +21,8 @@ import (
 //
 // import (
 //
+//	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/machine"
 //	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-//	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/machine"
 //
 // )
 //

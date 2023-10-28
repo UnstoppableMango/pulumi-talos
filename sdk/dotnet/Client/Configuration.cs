@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Client
+namespace UnMango.Talos.Client
 {
     public static class Configuration
     {
@@ -24,7 +24,7 @@ namespace Pulumiverse.Talos.Client
         /// using System.Linq;
         /// using Pulumi;
         /// using Talos = Pulumi.Talos;
-        /// using Talos = Pulumiverse.Talos;
+        /// using Talos = UnMango.Talos;
         /// 
         /// return await Deployment.RunAsync(() =&gt; 
         /// {
@@ -60,7 +60,7 @@ namespace Pulumiverse.Talos.Client
         /// using System.Linq;
         /// using Pulumi;
         /// using Talos = Pulumi.Talos;
-        /// using Talos = Pulumiverse.Talos;
+        /// using Talos = UnMango.Talos;
         /// 
         /// return await Deployment.RunAsync(() =&gt; 
         /// {

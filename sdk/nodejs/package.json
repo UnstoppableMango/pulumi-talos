@@ -1,5 +1,5 @@
 {
-    "name": "@pulumiverse/talos",
+    "name": "@unmango/pulumi-talos",
     "version": "${VERSION}",
     "description": "A Pulumi package for creating and managing Talos Linux machines and clusters.",
     "keywords": [
@@ -8,7 +8,7 @@
         "category/infrastructure"
     ],
     "homepage": "https://talos.dev",
-    "repository": "https://github.com/pulumiverse/pulumi-talos",
+    "repository": "https://github.com/UnstoppableMango/pulumi-talos",
     "license": "MPL-2.0",
     "scripts": {
         "build": "tsc"
@@ -24,6 +24,6 @@
     "pulumi": {
         "resource": true,
         "name": "talos",
-        "server": "github://api.github.com/pulumiverse"
+        "server": "github://api.github.com/UnstoppableMango"
     }
 }

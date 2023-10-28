@@ -13,7 +13,7 @@ import * as utilities from "../utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as talos from "@pulumiverse/talos";
+ * import * as talos from "@unmango/pulumi-talos";
  *
  * const machineSecrets = new talos.machine.Secrets("machineSecrets", {});
  * ```

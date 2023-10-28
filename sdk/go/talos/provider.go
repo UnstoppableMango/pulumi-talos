@@ -7,9 +7,9 @@ import (
 	"context"
 	"reflect"
 
+	"github.com/UnstoppableMango/pulumi-talos/sdk/go/talos/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumix"
-	"github.com/pulumiverse/pulumi-talos/sdk/go/talos/internal"
 )
 
 // The provider type for the talos package. By default, resources use package-wide configuration

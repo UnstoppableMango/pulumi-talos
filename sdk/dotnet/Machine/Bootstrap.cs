@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Pulumi.Serialization;
 using Pulumi;
 
-namespace Pulumiverse.Talos.Machine
+namespace UnMango.Talos.Machine
 {
     /// <summary>
     /// The machine bootstrap resource allows you to bootstrap a Talos node.
@@ -68,7 +68,7 @@ namespace Pulumiverse.Talos.Machine
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
-                PluginDownloadURL = "github://api.github.com/pulumiverse",
+                PluginDownloadURL = "github://api.github.com/UnstoppableMango",
             };
             var merged = CustomResourceOptions.Merge(defaultOptions, options);
             // Override the ID if one was specified for consistency with other language SDKs.

@@ -17,7 +17,7 @@ def readme():
         return "talos Pulumi Package - Development Version"
 
 
-setup(name='pulumiverse_talos',
+setup(name='unmango_pulumi_talos',
       python_requires='>=3.7',
       version=VERSION,
       description="A Pulumi package for creating and managing Talos Linux machines and clusters.",
@@ -26,12 +26,12 @@ setup(name='pulumiverse_talos',
       keywords='pulumi talos category/infrastructure',
       url='https://talos.dev',
       project_urls={
-          'Repository': 'https://github.com/pulumiverse/pulumi-talos'
+          'Repository': 'https://github.com/UnstoppableMango/pulumi-talos'
       },
       license='MPL-2.0',
       packages=find_packages(),
       package_data={
-          'pulumiverse_talos': [
+          'unmango_pulumi_talos': [
               'py.typed',
               'pulumi-plugin.json',
           ]

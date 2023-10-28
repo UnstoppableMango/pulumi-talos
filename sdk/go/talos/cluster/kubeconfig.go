@@ -33,6 +33,8 @@ type KubeconfigArgs struct {
 	Node     string              `pulumi:"node"`
 	Timeouts *KubeconfigTimeouts `pulumi:"timeouts"`
 	// Wait for the kubernetes api to be available
+	//
+	// Deprecated: This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.
 	Wait *bool `pulumi:"wait"`
 }
 
@@ -52,6 +54,8 @@ type KubeconfigResult struct {
 	Node     string              `pulumi:"node"`
 	Timeouts *KubeconfigTimeouts `pulumi:"timeouts"`
 	// Wait for the kubernetes api to be available
+	//
+	// Deprecated: This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.
 	Wait *bool `pulumi:"wait"`
 }
 
@@ -78,6 +82,8 @@ type KubeconfigOutputArgs struct {
 	Node     pulumi.StringInput         `pulumi:"node"`
 	Timeouts KubeconfigTimeoutsPtrInput `pulumi:"timeouts"`
 	// Wait for the kubernetes api to be available
+	//
+	// Deprecated: This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.
 	Wait pulumi.BoolPtrInput `pulumi:"wait"`
 }
 
@@ -143,6 +149,8 @@ func (o KubeconfigResultOutput) Timeouts() KubeconfigTimeoutsPtrOutput {
 }
 
 // Wait for the kubernetes api to be available
+//
+// Deprecated: This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.
 func (o KubeconfigResultOutput) Wait() pulumi.BoolPtrOutput {
 	return o.ApplyT(func(v KubeconfigResult) *bool { return v.Wait }).(pulumi.BoolPtrOutput)
 }

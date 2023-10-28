@@ -108,6 +108,9 @@ class KubeconfigResult:
         """
         Wait for the kubernetes api to be available
         """
+        warnings.warn("""This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.""", DeprecationWarning)
+        pulumi.log.warn("""wait is deprecated: This attribute is deprecated and no-op. Will be removed in a future version. Use talos_cluster_health instead.""")
+
         return pulumi.get(self, "wait")
 
 

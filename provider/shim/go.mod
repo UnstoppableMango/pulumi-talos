@@ -1,4 +1,4 @@
-module github.com/pulumiverse/pulumi-talos/shim
+module github.com/UnstoppableMango/pulumi-talos/shim
 
 go 1.21.0
 

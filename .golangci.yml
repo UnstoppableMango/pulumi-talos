@@ -32,7 +32,7 @@ linters-settings:
     lines: 60
     statements: 40
   gci:
-    local-prefixes: github.com/pulumiverse/pulumi-talos
+    local-prefixes: github.com/UnstoppableMango/pulumi-talos
   gocognit:
     min-complexity: 30
   ireturn:
@@ -60,7 +60,7 @@ linters-settings:
   gofmt:
     simplify: true
   goimports:
-    local-prefixes: github.com/pulumiverse/pulumi-talos
+    local-prefixes: github.com/UnstoppableMango/pulumi-talos
   golint:
     min-confidence: 0.8
   gomnd:
@@ -76,12 +76,11 @@ linters-settings:
           - '$all'
         allow:
           - 'github.com/siderolabs/terraform-provider-talos/shim'
-          - 'github.com/pulumiverse/pulumi-talos/provider/pkg/version'
+          - 'github.com/UnstoppableMango/pulumi-talos/provider/pkg/version'
           - 'github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge'
-          - 'github.com/pulumiverse/pulumi-talos/provider'
+          - 'github.com/UnstoppableMango/pulumi-talos/provider'
           - 'github.com/pulumi/pulumi-terraform-bridge/pf/tfgen'
           - 'github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge'
-          - 'github.com/pulumiverse/pulumi-talos/provider'
           - '$gostd'
   lll:
     line-length: 200

@@ -11,13 +11,13 @@ This package is available for several languages/platforms:
 To use from JavaScript or TypeScript in Node.js, install using either `npm`:
 
 ```bash
-npm install @pulumiverse/talos
+npm install @unmango/pulumi-talos
 ```
 
 or `yarn`:
 
 ```bash
-yarn add @pulumiverse/talos
+yarn add @unmango/pulumi-talos
 ```
 
 ### Python
@@ -25,7 +25,7 @@ yarn add @pulumiverse/talos
 To use from Python, install using `pip`:
 
 ```bash
-pip install pulumiverse_talos
+pip install unmango_pulumi_talos
 ```
 
 ### Go
@@ -33,7 +33,7 @@ pip install pulumiverse_talos
 To use from Go, use `go get` to grab the latest version of the library:
 
 ```bash
-go get github.com/pulumiverse/pulumi-talos/sdk/go/...
+go get github.com/UnstoppableMango/pulumi-talos/sdk/go/...
 ```
 
 ### .NET
@@ -41,7 +41,7 @@ go get github.com/pulumiverse/pulumi-talos/sdk/go/...
 To use from .NET, install using `dotnet add package`:
 
 ```bash
-dotnet add package Pulumiverse.Talos
+dotnet add package UnMango.Talos
 ```
 
 ## Reference

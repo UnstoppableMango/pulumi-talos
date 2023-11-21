@@ -202,6 +202,7 @@ github.com/onsi/ginkgo/v2 v2.9.2/go.mod h1:WHcJJG2dIlcCqVfBAwUCrJxSPFb6v4azBwgxe
 github.com/onsi/gomega v1.20.1/go.mod h1:DtrZpjmvpn2mPm4YWQa0/ALMDj9v4YxLgojwPeREyVo=
 github.com/pgavlin/diff v0.0.0-20230503175810-113847418e2e/go.mod h1:WGwlmuPAiQTGQUjxyAfP7j4JgbgiFvFpI/qRtsQtS/4=
 github.com/pgavlin/text v0.0.0-20230428184845-84c285f11d2f/go.mod h1:fk4+YyTLi0Ap0CsL1HA70/tAs6evqw3hbPGdR8rD/3E=
+github.com/pierrec/lz4/v4 v4.1.15/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
 github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e/go.mod h1:pJLUxLENpZxwdsKMEsNbx1VGcRFpLqf3715MtcvvzbA=
 github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c/go.mod h1:OmDBASR4679mdNQnz2pUhc2G8CO2JrUAVFDRBDP/hJE=
 github.com/pulumi/pulumi-terraform-bridge/x/muxer v0.0.4 h1:rIzMmtcVpPX8ynaz6/nW5AHNY63DiNfCohqmxWvMpM4=
